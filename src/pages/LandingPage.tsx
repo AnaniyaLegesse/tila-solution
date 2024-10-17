@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar'
 import { ChartCandlestick } from 'lucide-react';
 import { CodeXml } from 'lucide-react';
 import { SendToBack } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return (
@@ -22,7 +23,15 @@ const LandingPage = () => {
 
             <h1 className='text-5xl font-bold '>Welcome to Tila Tech Solution</h1>
             <p>Innovative Web Development and Digital Marketing, Tailored for You.</p>
-            <button className=' bg-green-600 px-4 py-2 text-white rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-green-500 hover:scale-110 duration-700 '>Get Started</button>
+            <Link to="/signup">
+                <button 
+                    className=' bg-green-600 px-4 py-2
+                     text-white rounded-md transition 
+                     ease-in-out delay-150 hover:-translate-y-1
+                      hover:bg-green-500 hover:scale-110 duration-700 '>
+                Get Started
+                </button>
+            </Link>
         </div>
 
         {/* ABOUT SECTION */}
