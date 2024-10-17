@@ -13,10 +13,10 @@ const LandingPage = () => {
             className="flex flex-col gap-4 justify-center items-center h-[90vh]" 
             id='home'
             style={{
-                backgroundImage: 'url(/)',
-                backgroundSize: 'cover', // or 'cover', 'auto', '100% 100%' based on the desired size
-                backgroundPosition: 'center', // adjust the position (e.g., 'top', 'bottom', 'left', 'right')
-                backgroundRepeat: 'no-repeat', // prevent repeating of the image
+                backgroundImage: 'url(/bg.png)',
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
+                backgroundRepeat: 'no-repeat', 
               }}
             >
 
